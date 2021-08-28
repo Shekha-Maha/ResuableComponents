@@ -1,0 +1,68 @@
+
+.cardOne{
+    background-color: var(--bg-secondary);
+    border-radius:5px;
+    border: 1px solid var(--border-primary);
+}
+
+.cardOneImg img{
+    height: auto;
+    width: 90%;
+}
+/* .cardOneImg img:hover{
+    width:100%;
+    height: auto;
+} */
+
+.cardOneImg img{
+    transition: all .5s ease-in-out;
+}
+
+
+.cardTitle{
+    font-size: var(--fs-2Xsmall);
+    color: var(--text-primary);
+    font-weight: var(--fw-small);
+}
+.regularPrice{
+    font-size: var(--fs-2Xsmall);
+    color: var(--text-secondary);
+    font-weight: var(--fw-small);
+}
+
+.offerPrice{
+    font-size: var(--fs-Xsmall);
+    color: var(--text-primary);
+    font-weight: var(--fw-small);
+}
+.offerPriceImg img{
+    height: 20px;
+    object-fit: contain;
+}
+
+/* buy now button */
+
+.buyNow{
+    border: 1px solid var(--primary);
+    padding: 4px 8px; 
+    width: 120px; 
+    color: var(--text-primary); 
+}
+.buyNow:hover{
+    background-color: var(--primary); 
+    color: #FFFFFF; 
+}
+
+/* cart button */
+
+.buyorCart button{
+    border-style: none;
+    background: transparent;    
+    outline-style: none;
+}
+.buyorCart button img{
+   height: 30px;
+   object-fit: contain;
+}
+
+

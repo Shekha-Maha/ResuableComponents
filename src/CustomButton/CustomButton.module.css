@@ -1,0 +1,63 @@
+
+
+.CustomButton{
+    width: inherit;
+    cursor: pointer;
+}
+
+.CustomButton button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:inherit;
+    border-style: none;
+    background: inherit;
+    font-size: var(--fs-2Xsmall);
+    color: inherit;
+    border: 1px solid inherit;
+    border-radius: inherit;
+    font-weight:inherit;
+}
+
+.CustomButton button:hover{
+    background:inherit; 
+    color: inherit;
+}
+
+
+.CustomButton button:active:focus {
+    box-shadow: none;
+  }
+  
+.CustomButton img{
+    height: 20px;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.CustomButton .hoverIcon {
+    display:none;
+}
+
+.CustomButton button:hover > .defaultIcon{
+    display: none;
+}
+.CustomButton button:hover  > .hoverIcon {
+    display: block;
+}
+
+
+/* .customButton .:hover>.defaultIconiconPrev{
+    display: none;   
+}
+.customButton .iconAfter{
+    display: none; 
+}
+.customButton .iconPrev:hover>.iconAfter{
+    display: block;   
+}  */
+
+
+
+
